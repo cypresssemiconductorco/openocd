@@ -251,6 +251,7 @@ const struct psoc4_chip_family psoc4_families[] = {
 	{ 0xAB, "PSoC 4100S",                           .flags = 0, .spcif_ver = spcif_v3 },
 	{ 0xAC, "PSoC 4100PS/PSoC Analog Coprocessor",  .flags = 0, .spcif_ver = spcif_v3 },
 	{ 0xAE, "PSoC 4xx8 BLE",                        .flags = PSOC4_FLAG_IMO_NOT_REQUIRED, .spcif_ver = spcif_v2 },
+	{ 0xAF, "CCG4 USB Type-C Port Controller",      .flags = 0, .spcif_ver = spcif_v3 },	
 	{ 0xB5, "PSoC 4100S Plus",                      .flags = 0, .spcif_ver = spcif_v3 },
 	{ 0xB8, "PSoC 4100S Plus/PSoC 4500",            .flags = 0, .spcif_ver = spcif_v3 },
 	{ 0xBE, "PSoC 4100S Max",                       .flags = 0, .spcif_ver = spcif_v3 },
